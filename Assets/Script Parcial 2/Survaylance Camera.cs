@@ -12,7 +12,7 @@ public class Torreta : MonoBehaviour
     public float anguloVision;
     public float radioVision;
     public float velocidadGiro;
-    public float proximoDisparo;
+    
 
     public LayerMask layerDetectable;
 
@@ -20,7 +20,7 @@ public class Torreta : MonoBehaviour
     public bool check;
    
 
-    public float vidaTorreta;
+    public float vidaCamara;
 
 
 
