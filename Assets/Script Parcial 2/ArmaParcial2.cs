@@ -23,6 +23,7 @@ public class ArmaParcial2 : MonoBehaviour
                 if (amountBullet > 0)
                 {
                     amountBullet--;
+                    UIController.Instance.UpdateTextBullets(amountBullet);
                     Instantiate(bala, transform.position, transform.rotation);
                     tiempoDisparo = 0;
                 }
@@ -37,6 +38,7 @@ public class ArmaParcial2 : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.R))
             {
                 amountBullet = 15;
+                UIController.Instance.UpdateTextBullets(amountBullet );
             }
         }
     }
